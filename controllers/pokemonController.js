@@ -9,6 +9,11 @@ res.render('index.ejs', {
  })
  })
 
+router.get('/:id', (req,res) => {
+res.render('show.ejs', {
+'pokemon': pokemon[req.params.id]
+})
+}) 
 
 
 
