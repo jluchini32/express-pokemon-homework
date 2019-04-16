@@ -2,6 +2,7 @@ body{
     color: blue;
     font-size: 32px;
     background: greenyellow;
+    font-variant: small-caps;
 }
 
 h1{
@@ -15,9 +16,23 @@ h1{
 
 a{
     color:blue;
+    display: inline;
 }
 
 .image{
     text-align: center;
 }
 
+button {
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+  }
+
+#edit-button {
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+}
